@@ -8,6 +8,7 @@ function App() {
   const [homeScore, setHomeScore] = useState(32);
   const [awayScore, setAwayScore] = useState(32);
 
+  // Scores
   const addHomeTouchDown = () => {
     setHomeScore(homeScore + 7);
   };
